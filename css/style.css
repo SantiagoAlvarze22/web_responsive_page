@@ -331,3 +331,15 @@ aside h3{
     text-decoration: underline;
     color: #2f78bc;
 }
+
+#social{
+    height: 190px;
+}
+
+#social a{
+    display: block;
+    color: #333333;
+    text-decoration: none;
+    font-size: 30px;
+    margin:10px 0px 20px 20px;
+}
