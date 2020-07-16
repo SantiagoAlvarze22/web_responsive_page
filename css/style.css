@@ -189,7 +189,7 @@ body{
 #banner h1{
     display: block;
     color: white;
-    width: 850px;
+    /*width: 850px;*/
     font-family: "BebasNeue";
     font-size: 45px;
     font-weight: normal;
