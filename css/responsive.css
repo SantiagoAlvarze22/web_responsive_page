@@ -40,3 +40,82 @@
         font-size: 30px;
     }
 }
+
+ @media (max-width:1080px){
+    .card .category{
+        font-size:17px ;
+    }
+
+    .card .category .description{
+        font-size: 14px;
+    }
+
+    .articles{
+        width: 61%;
+    }
+
+
+ }
+
+ @media (max-width:970px){
+     .articles{
+         width: 59%;
+     }
+
+     #footer h5{
+         font-size: 22px;
+     }
+
+     #footer .wrap > div {
+        width: 23%;
+    }
+ }
+
+ @media (max-width:925px){
+    .articles{
+        width: 65%;
+    }
+
+    .lateral{
+        width: 25%;
+    }
+
+    .lateral input[type="text"]{
+        width: 78%;
+    }
+    
+    #footer .wrap > div {
+        width: 20%;
+    }
+    .aside-box{
+        width: 95%;
+        min-width: 140px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    #login a{
+        margin:10px 20px;
+    }
+
+    #login input[type="email"],
+    #login input[type="password"]{
+        width: 65%;
+    }
+
+    #login #user,
+    #login #password{
+        margin-left: 24px ;
+    }
+
+    #login input[type="submit"],
+    #login input[type="button"],
+    #login input[type="reset"],
+    #login button{
+        margin-bottom: 0px;
+    }
+
+    #login input[type="reset"]{
+        display: none;
+    }
+}
