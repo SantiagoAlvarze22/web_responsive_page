@@ -226,7 +226,6 @@
     #footer h5{
         font-size: 22px;
     }
-    
 }
 
 @media(max-width:475px){
@@ -298,5 +297,10 @@
         border-radius: 0px;
         margin-bottom: 20px;
     }
+
+    .aside-box .overlay{
+        font-size: 25px;
+    }
+    
 
 }
